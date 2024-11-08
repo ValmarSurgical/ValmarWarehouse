@@ -1,0 +1,148 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+		
+		h1 {
+			font-size: 2em;                       /* Adjust font size as needed */
+			background: linear-gradient(45deg, #007bff, #28a745); /* Blue-green gradient */
+			-webkit-background-clip: text;        /* Clip background to text */
+			-webkit-text-fill-color: transparent; /* Make text fill transparent to show gradient */
+			color: transparent;                   /* Fallback color */
+			margin-bottom: 20px;                  /* Space below header */
+			text-align: center;                   /* Center align */
+		}
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .input-section input {
+            padding: 10px;
+            margin-right: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .input-section button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .input-section button:disabled {
+            background-color: #ddd;
+            cursor: not-allowed;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .download-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .download-section button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+        .download-section button:disabled {
+            background-color: #ddd;
+            cursor: not-allowed;
+        }
+        .refresh-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .refresh-section button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background-color: #FF5722;
+            color: white;
+            cursor: pointer;
+        }
+		
+		 /* Style for the loading indicator */
+        #loadingBox {
+            display: none; /* Initially hidden */
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        /* Center the buttons and file input */
+        .input-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .download-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Hide the download button initially */
+        #downloadButton {
+            display: none;
+        }
+		
+		/* Style for the Update Tracking button with blue-green gradient */
+		#updateTrackingButton {
+			font-size: 1.2em;                    /* Increase font size */
+			padding: 15px 30px;                  /* Add more padding */
+			color: #fff;                         /* White text */
+			background: linear-gradient(45deg, #007bff, #28a745); /* Blue-green gradient */
+			border: none;                        /* Remove border */
+			border-radius: 8px;                  /* Rounded corners */
+			cursor: pointer;                     /* Pointer cursor */
+			transition: background 0.3s ease;    /* Smooth transition */
+			box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+		}
+
+		#updateTrackingButton:hover {
+			background: linear-gradient(45deg, #0056b3, #1c7430); /* Darker blue-green on hover */
+}
+
+}
+
+    </style>
